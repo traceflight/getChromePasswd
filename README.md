@@ -13,6 +13,7 @@ Sqlite is used to maintain them. The hosts and acocounts infomations are plain a
 * *getpwd.py* runs on target machine. It gets chrome login data file, and decrypt it. Then send them to your host.
   
    (Module requirement:    [pywin32](http://sourceforge.net/projects/pywin32/))
+   
    You need to modify the IP address and port.
    You can also use [py2exe](http://www.py2exe.org/) or [pyinstaller](https://github.com/pyinstaller/pyinstaller/) to convert *getpwd.py* to a single Windows exe, so that it can run on a pc without python.
    Besides, you can design a specific Get_URL to get any file in target machine.
