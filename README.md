@@ -5,7 +5,7 @@ You can get others' accounts and passwords saved by Google Chrome browser.
 
 ### Something to know...
 Google Chrome browser save all users login data to ``C:\Users\%username%\AppData\Local\Google\Chrome\User Data\Default\Login Data``.
-Sqlite is used to maintain them. The hosts and acocounts infomations are plain and only passwords are encrypted by win32crypt. So you can decrypt them on the target host. This is not a design deficiency as long as your Windows Operation is safe.
+Sqlite is used to maintain them. The hosts and acocounts infomations are plain and only passwords are encrypted by win32crypt. So you can decrypt them on the target host. This is not a design deficiency as long as your Windows Operation System is safe.
 
 ### Descripiton
 
